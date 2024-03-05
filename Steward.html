@@ -1,37 +1,202 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Steward college</title>
-    <link rel="stylesheet" href="Steward.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  </head>
 
-  <body>
-    <section class="header">
-      <nav>
-        <a href="Steward.html"><img src="logo-removebg-preview.png" width="270px" alt="" /></a>
-        <div class="nav-links">
-          <div class="eee"><i class="fa fa-times" style="display: none;" ></i></div>
-          <ul> 
-            <li><a href="">Home</a></li>
-            <li><a href="">Courses</a></li>
-            <li><a href="">Blog</a></li>
-            <li><a href="">About us</a></li>
-            <li><a href="">Contact us</a></li>
-          </ul>
-        </div>
-        <div class="fff"><i class="fa fa-bars" style="display: none; "></i></div>
-      </nav>
-      <div class="text-box">
-        <h1>World's Biggest University</h1>
-        <p>An institution dedicated in helping learners showcase their god given talents in a stewarded way </p>
-        <a href="" class="hero-btn">Visit Us to Know More</a>
+            <!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Steward college</title>
+  <link rel="stylesheet" href="Steward.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+
+
+
+  <!-- header -->
+
+  <section class="header" style=" background-image: linear-gradient(rgba(4, 9, 30, 0.7),  rgba(4, 9, 30, 0.7)),
+      url(algonquin_banner.png); padding-bottom: 700px;">
+    <nav>
+      <a href="Steward.html"><img src="logo-removebg-preview.png" width="270px" alt="" /></a>
+      <div class="nav-links" id="navLinks">
+        <ul>
+          <li><a href="#HOME">Home</a></li>
+          <li><a href="#COURSES">Courses</a></li>
+          <li><a href="#CAMPUS">Campus</a></li>
+          <li><a href="#FACILITIES">facilities</a></li>
+          <li><a href="#ABOUT US">About us</a></li>
+        </ul>
       </div>
-    </section>
-  </body> 
+      <i class="fa fa-bars" onclick="showMenu()" style="color: #fff;"></i>
+    </nav>
+    <div class="text-box" id="HOME">
+      <h1>World's Biggest University</h1>
+      <p style="color: #fff;">An institution dedicated in helping learners showcase their god given talents in a
+        stewarded way </p>
+      <a href="" class="hero-btn">Visit Us to Know More</a>
+    </div>
+  </section>
+
+
+
+
+  <!-- courses -->
+
+  <section class="courses" id="COURSES">
+    <h1>Courses We Offer</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore, quam?</p>
+
+    <div class="row">
+      <div class="course-col">
+        <h3>Intermediate</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Sequi beatae asperiores quae nihil perspiciatis,
+          ducimus quam accusamus facilis quibusdam consequatur,
+          fuga iste consectetur hic quasi enim culpa, amet labore rerum.</p>
+      </div>
+
+      <div class="course-col">
+        <h3>Degree</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Sequi beatae asperiores quae nihil perspiciatis,
+          ducimus quam accusamus facilis quibusdam consequatur,
+          fuga iste consectetur hic quasi enim culpa, amet labore rerum.</p>
+      </div>
+
+      <div class="course-col">
+        <h3>Post Graduation</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Sequi beatae asperiores quae nihil perspiciatis,
+          ducimus quam accusamus facilis quibusdam consequatur,
+          fuga iste consectetur hic quasi enim culpa, amet labore rerum.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- campus -->
+  <section class="campus" id="CAMPUS">
+    <h1>Our Global Campus</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, praesentium.</p>
+
+    <div class="row">
+      <div class="campus-col">
+        <img src="/Steward_img/london.png" alt="" height="541px">
+        <div class="layer">
+          <h3>LONDON</h3>
+        </div>
+      </div>
+
+      <div class="campus-col">
+        <img src="/Steward_img/photo-1494145904049-0dca59b4bbad.avif" alt="" height="541px">
+        <div class="layer">
+          <h3>TEXAS</h3>
+        </div>
+      </div>
+
+      <div class="campus-col">
+        <img src="/Steward_img/IMG.jpg" alt="" height="541px">
+        <div class="layer">
+          <h3>OHIO</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- facilities -->
+  <section class="facilities" id="FACILITIES">
+    <h1>Our facilities</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, dolore?</p>
+
+    <div class="row">
+      <div class="facilities-col">
+        <img src="Steward_img/pexels-pixabay-159594.jpg" alt="" height="350px" width="300px">
+        <h3>Largest Play Ground</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora iusto cumque tenetur cum asperiores rerum!
+        </p>
+      </div>
+
+      <div class="facilities-col">
+        <img src="Steward_img/pexels-cedric-fauntleroy-4266947.jpg" alt="" height="350px" width="300px">
+        <h3>World Class Healthcare</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora iusto cumque tenetur cum asperiores rerum!
+        </p>
+      </div>
+
+      <div class="facilities-col">
+        <img src="Steward_img/pexels-julie-aagaard-2467287.jpg" alt="" height="350px" width="300px">
+        <h3>Delicious and Healthy Food</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora iusto cumque tenetur cum asperiores rerum!
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- testimonials -->
+
+  <section class="testimonial">
+    <h1>What are students say</h1>
+    <p>Testimonials on learners experiences at Steward College</p>
+
+    <div class="row">
+      <div class="testimonial-col">
+        <div><i class="fa fa-user" style="font-size: 30px;"></i>
+          <p>My experience at Steward College has been nothing short of transformative.
+            The faculty's dedication to excellence in teaching and research has provided me
+            with invaluable knowledge and skills that have shaped my career aspirations.</p>
+          <h3>Legacy Franco</h3>
+          <i class="fa fa-star" style="color: gold;"></i>
+          <i class="fa fa-star" style="color: gold;"></i>
+          <i class="fa fa-star" style="color: gold;"></i>
+          <i class="fa fa-star" style="color: gold;"></i>
+          <i class="fa fa-star" style="color: gold;"></i>
+        </div>
+      </div>
+
+      <div class="testimonial-col">
+        <div>
+          <i class="fa fa-user" style="font-size: 30px;"></i>
+          <p>Choosing Steward College for my higher education was one of the best decisions I have ever made.
+            The rigorous curriculum challenged me to think critically and creatively,
+            preparing me for the complexities of the real world.</p>
+          <h3>Robin Daniels</h3>
+          <i class="fa fa-star" style="color: gold;"></i>
+          <i class="fa fa-star" style="color: gold;"></i>
+          <i class="fa fa-star" style="color: gold;"></i>
+          <i class="fa fa-star" style="color: gold;"></i>
+          <i class="fa fa-star" style="color: gold;"></i>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- contact us -->
+  <section class="contact">
+    <h1>Enroll Into Steward University Now</h1>
+    <a href="" class="hero-btn">CONTACT US</a>
+  </section>
+
+  <!-- footer -->
+
+  <section class="footer" id="ABOUT US">
+    <h4>About Us</h4>
+    <p>
+      Steward College is a medium-sized private university located across nations. It was founded in the early 20th
+      century <br> and has since grown to become a reputable institution known for its strong academic programs and
+      research initiatives.
+    </p>
+    <div class="icons">
+      <i class="fa fa-facebook"></i>
+      <i class="fa fa-instagram"></i>
+      <i class="fa fa-twitter"></i>
+      <i class="fa fa-linkedin"></i>
+    </div>
+  </section>
+</body>
+
 </html>
